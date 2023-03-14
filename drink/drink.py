@@ -25,5 +25,5 @@ class Barman:
 
 
 barman = Barman()
-drink = barman.createDrink("Whiskey", 100, "Cola", 100, "Sok z cytryny.", 50)
+drink = barman.createDrink("Sok ananasowy", 100, "Likier Malibu", 50, "Mleko kokosowe.", 100)
 barman.printDrink(drink)
