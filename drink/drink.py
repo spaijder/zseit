@@ -13,7 +13,7 @@ class Barman:
         ingredients = [Ingredient(name1, amount1), Ingredient(name2, amount2), Ingredient(name3, amount3)]
         total_amount = amount1 + amount2 + amount3
         proportions = [amount1 / total_amount, amount2 / total_amount, amount3 / total_amount]
-        volume = total_amount * 2.5  # przyjmuję że 1 unit składnika - 2.5 ml
+        volume = total_amount * 2.5  # 1 unit equals to 2,5 ml
         return Drink(ingredients, volume)
 
     def printDrink(self, drink):
