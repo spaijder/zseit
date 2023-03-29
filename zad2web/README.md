@@ -1,6 +1,3 @@
-To start project, type: `npm i`, `npm run dev`, `cd backend`, `npx ts-node .\app.ts` and go to http://localhost:3000
-Login and password to bank site is: L: `ben` P: `ten`
-You can deposit and withdraw money to your account, PIN: `1111`
 ## Getting Started
 
 First, run the development server:
@@ -13,6 +10,9 @@ npx ts-node
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+Login and password to bank site is: L: `ben` P: `ten`
+You can deposit and withdraw money to your account, PIN: `1111`
 
 [API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
 
