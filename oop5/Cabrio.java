@@ -20,7 +20,6 @@ public Cabrio(String name, String brand) {
 
 /**
  * Returns the name of the car.
- * @return the name of the car
  */
 public String getName() {
     return name;
