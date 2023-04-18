@@ -10,8 +10,6 @@ public class Cabrio {
     private boolean isRoofOpen; // current state of the roof
     /**
  * Constructs a new Cabrio car with the given name and brand.
- * @param name the name of the car
- * @param brand the brand of the car
  */
 public Cabrio(String name, String brand) {
     this.name = name;
@@ -46,7 +44,7 @@ public boolean isMoving() {
 
 /**
  * Returns the current state of the roof.
- * @return true if the roof is open, false otherwise
+ * @return true if the roof is open, otherwise false
  */
 public boolean isRoofOpen() {
     return isRoofOpen;
@@ -93,7 +91,6 @@ public void closeRoof() {
 /**
  * The main method used to test the Cabrio class.
  * Creates a new Cabrio car, opens and closes the roof, starts and stops the car's movement.
- * @param args command-line arguments (not used)
  */
 public static void main(String[] args) {
     Cabrio car = new Cabrio("MX-5", "Mazda");
